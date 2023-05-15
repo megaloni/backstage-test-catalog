@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
   name: my-test-system
   title: Megan's Test System
@@ -7,7 +7,8 @@ metadata:
   annotations:
     newrelic.com/dashboard-guid: MjI1NTYyNnxWSVp8REFTSEJPQVJEfGRhOjY5OTE1MQ
 spec:
-  domain: megan-backstage-test
+  type: kube-service
+  system: megan-backstage-test-system
   owner: my-test-group
   lifecycle: production
 
