@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: my-test-system
+  title: Megan's Test System
+  description: Verifying Backstage behavior for a test system
+  annotations:
+    newrelic.com/dashboard-guid: MjI1NTYyNnxWSVp8REFTSEJPQVJEfGRhOjY5OTE1MQ
+spec:
+  domain: megan-backstage-test
+  owner: my-test-group
+  lifecycle: production
+
